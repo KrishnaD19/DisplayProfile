@@ -9,7 +9,7 @@ import java.awt.Image;
 
 /**
  *
- * @author Amulya
+ * @author Krishna
  */
 public class Product {
     
@@ -20,12 +20,12 @@ public class Product {
     private long Fnumber;
     private String Email;
     private long SSN;
-    private long Medical;
-    private long Health;
-    private long Bank;
-    private String Vehicle;
-    private String License;
-    private String Device;
+    private long MedicalNo;
+    private long HealthNo;
+    private long BankNo;
+    private String VehicleNo;
+    private String LicenseNo;
+    private String DeviceNo;
     private String Linkedin;
     private String IP;
     private String image;
@@ -104,27 +104,27 @@ public class Product {
     }
 
     public String getVehicle() {
-        return Vehicle;
+        return VehicleNo;
     }
 
     public void setVehicle(String Vehicle) {
-        this.Vehicle = Vehicle;
+        this.VehicleNo = Vehicle;
     }
 
     public String getLicense() {
-        return License;
+        return LicenseNo;
     }
 
     public void setLicense(String License) {
-        this.License = License;
+        this.LicenseNo = License;
     }
 
     public String getDevice() {
-        return Device;
+        return DeviceNo;
     }
 
     public void setDevice(String Device) {
-        this.Device = Device;
+        this.DeviceNo = Device;
     }
 
     public long getTnumber() {
@@ -152,27 +152,27 @@ public class Product {
     }
 
     public long getMedical() {
-        return Medical;
+        return MedicalNo;
     }
 
     public void setMedical(long Medical) {
-        this.Medical = Medical;
+        this.MedicalNo = Medical;
     }
 
     public long getHealth() {
-        return Health;
+        return HealthNo;
     }
 
     public void setHealth(long Health) {
-        this.Health = Health;
+        this.HealthNo = Health;
     }
 
     public long getBank() {
-        return Bank;
+        return BankNo;
     }
 
     public void setBank(long Bank) {
-        this.Bank = Bank;
+        this.BankNo = Bank;
     }
     
 }
